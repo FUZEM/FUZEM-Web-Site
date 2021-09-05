@@ -2,6 +2,9 @@
 #slider {
 	overflow: hidden;
 }
+body {
+	background-image:url(assets/background.jpg);
+	background-repeat :repeat-y;} 
 
 @keyframes slider {
 	0% { left: 0; }
@@ -12,9 +15,7 @@
 	95% { left: -200%; }
 	100% { left: 0; }
 }
-/* #slidercontainer{
-    height: 250px;
-} */
+  
 #slider figure {
 	width:300%;
 	position: relative;
@@ -31,4 +32,7 @@
 }
 img {
     object-fit: contain;
+	padding: 0;
+	max-width: 100%;
+	max-height: 100%;
   }
