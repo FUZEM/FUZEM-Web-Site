@@ -39,3 +39,28 @@ body {
 	max-width: 100%;
 	max-height: 100%;
 }
+.event-date {
+    width: 65px;
+}
+.event-date .month {
+    float: left;
+    font-size: 17px;
+    border-radius: 3px 3px 0 0;
+    text-transform: uppercase;
+    background-color: #900016;
+    color: #fff;
+    width: 65px;
+    text-align: center;
+}
+.event-date .day {
+    background-color: #f2f2f2;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 29px;
+}
+.event-date .year {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 16px;
+}
