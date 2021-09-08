@@ -38,6 +38,7 @@ body {
 	padding: 0;
 	max-width: 100%;
 	max-height: 100%;
+
 }
 .event-date {
     width: 65px;
@@ -64,3 +65,63 @@ body {
     text-align: center;
     font-size: 16px;
 }
+.div {
+	display: block;
+}
+.show-all-button {
+    height: 22.62px;
+    bottom: 0;
+    margin-bottom: 15px;
+    position: absolute;
+    right: 0;
+}
+.show-all-button a {
+    color: white;
+}
+.show-all-button h5 {
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 3px 10px;
+    float: right;
+    margin-top: 8px;
+    background-color: darkred;
+    background-size: cover;
+    font-weight: 400;
+    font-family: 'Ubuntu',sans-serif !important;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+.show-all-button a:hover {
+	color: gainsboro;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+ a:hover {
+	background-color: transparent;
+	text-decoration: none;
+  }
+  .duyuru a:hover{
+      text-decoration: none;
+      color: dimgray;
+  }
+  .duyuru a{
+      color: darkred;
+  }
+  .haber a:hover{
+    text-decoration: none;
+    color: dimgray;
+  }
+  .haber a{
+    text-decoration: none;
+    color: darkred;
+    text-align: end;
+  }
+  .haber .card-header{
+      background-color: #ededed;
+  }
+  img{
+      max-width: 100%;
+      object-fit: contain;
+  }
