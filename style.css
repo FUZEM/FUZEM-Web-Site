@@ -1,5 +1,6 @@
 #slider {
 	overflow: hidden;
+    z-index: 1;
 }
 body {
 	background-image:url(assets/background.jpg);
@@ -14,17 +15,28 @@ body {
 	95% { left: -200%; }
 	100% { left: 0; }
 }
-  
+.zindex{
+    z-index: 1;
+    
+}
+.footer{
+    height: 400px;
+    width: 100%;
+}
 #slider figure {
 	width:300%;
 	position: relative;
 	animation: 9s slider infinite;
+    z-index: 1;
 }
-
+.container1{
+    z-index: 1;
+}
 #slidercontainer {
 	height: 33.333333333%;
 	width: auto; 
 	background-color: darkred;
+    z-index: 1;
 }
 
 #slider figure:hover {
