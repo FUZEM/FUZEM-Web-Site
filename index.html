@@ -2,7 +2,7 @@
 <html lang="tr">
 
 <head>
-  <title>FUZEM</title>
+  <title>UZEM</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/style.css">
@@ -17,6 +17,9 @@
     $(function () {
       $("#footer").load("/Footer/footer.html");
     });
+    $(function () {
+      $("#slider").load("/slider.html");
+    });
   </script>
 </head>
 
@@ -24,22 +27,16 @@
 
   <div id="header"></div>
   <div class="container1" style="padding-top: 100px; "></div>
-  <div class="container  " id="slidercontainer" style="padding-top: 10px">
-    <div id="slider" style="z-index: 1;">
-      <figure>
-        <img
-          src="http://fuzem.firat.edu.tr/sites/fuzem.firat.edu.tr/files/styles/haber_sayfa/public/kapak5.jpg?itok=Jc9McYkc">
-        <img src="http://fuzem.firat.edu.tr/sites/fuzem.firat.edu.tr/files/IMG-20210209-WA0029.jpg">
-        <img src="http://fuzem.firat.edu.tr/sites/fuzem.firat.edu.tr/files/IMG-20201127-WA0020.jpg">
-      </figure>
-    </div>
+  <div class="container  " id="slidercontainer" style="padding-top: 10px; ">
+    <div id="slider" style="height: 500px; object-fit: contain;"></div>
   </div>
-  
+  </div>
+
   <div class="row" style=" margin-top: 20px; padding: 0px 12%; margin-bottom: 1050px;">
     <div class="col-sm-3 ">
       <div class="card">
         <div class="card-header">
-          <h3>FUZEM</h3>
+          <h3>UZEM</h3>
         </div>
         <div class="card-body bg-light">
           <ul class="nav nav-pills flex-column">
@@ -241,4 +238,5 @@
   </div>
   <div id="footer"></div>
 </body>
+
 </html>
