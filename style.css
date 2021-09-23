@@ -137,4 +137,17 @@ a {
       max-width: 100%;
       object-fit: contain;
   }
- 
+  .footer .map {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.person{
+    background-image: url(assets/person-background.jpg);
+    background-repeat: no-repeat;
+}
+.person-img{
+    border-radius: 100px;
+}
