@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <title>Duyurular | Fırat Üniversitesi Uzaktan Eğitim Merkezi</title>
     <meta charset="utf-8">
@@ -15,51 +16,24 @@
         $(function () {
             $("#footer").load("/Footer/footer.html");
         });
+        $(function () {
+            $("#fuzem-left").load("/fuzem-left.html");
+        });
     </script>
 
 </head>
+
 <body>
     <div id="header"></div>
-    
-    <div class="container" style="margin-top:100px; margin-bottom:1500px; background-image: url(/assets/background.jpg);">
+
+    <div class="container"
+        style="margin-top:100px; margin-bottom:1500px; background-image: url(/assets/background.jpg);">
         <div class="row">
 
             <div class="col-sm-3 ">
-                <div class="card ">
-                    <div class="card-header">
-                        <h3>FUZEM</h3>
-                    </div>
-                    <div class="card-body bg-light">
-                        <ul class="nav nav-pills flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: black; " href="https://fue.firat.edu.tr">Yaz Okulu</a>
-                                <hr>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: black; " href="Left/Duzenlenen-webinarlar.html">Düzenlenen Webinarlar</a>
-                                <hr>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: black; " href="#">Öğrenme Materyalleri</a>
-                                <hr>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: black; " href="Left/Fırat-tv.html">Fırat TV Ders Çekimleri</a>
-                                <hr>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: black; " href="#">Akademik Takvim</a>
-                                <hr>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color: black; " href="Destek/s.s.s.html">Sık Sorulan Sorular</a>
-                                <hr>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
+                <div id="fuzem-left"></div>
             </div>
+
             <div class="col-sm-9">
                 <div class="card ">
                     <div class="card-header">
@@ -71,7 +45,8 @@
                                 <div class="card-body ">
                                     <div class="card-body">
                                         <h6 class=" text-dark">21 Eylül 2021</h6>
-                                        <p>2021-2022 Eğitim Öğpretim Yılı Güz Dönemi Senato Kararları ve Uygulama ilkeleri</p>
+                                        <p>2021-2022 Eğitim Öğpretim Yılı Güz Dönemi Senato Kararları ve Uygulama
+                                            ilkeleri</p>
                                         <a href="senaryo-karar.html">Devamı...</a>
                                     </div>
                                 </div>
@@ -123,7 +98,8 @@
                                 <div class="card-body ">
                                     <div class="card-body">
                                         <h6 class=" text-dark">21 Nisan 2021</h6>
-                                        <p>Yurt Dışında Yaşayan ve Sisteme Giriş Yapamayan Öğrencilerimizin Yapması Gerekenler</p>
+                                        <p>Yurt Dışında Yaşayan ve Sisteme Giriş Yapamayan Öğrencilerimizin Yapması
+                                            Gerekenler</p>
                                         <a href="y-disi.html">Devamı...</a>
                                     </div>
                                 </div>
@@ -143,7 +119,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-body bg-light" >
+                    <div class="card-body bg-light">
                         <div class="card-deck">
                             <div class="card haber">
                                 <div class="card-body " style="height: 130px; padding-top: -1px;">
@@ -160,6 +136,7 @@
             </div>
         </div>
     </div>
-    <div id="footer" ></div>
+    <div id="footer"></div>
 </body>
+
 </html>
